@@ -1,13 +1,15 @@
-import nav from './nav';
-// import menuPage from './menuPage';
-
-
-
 // import {myFunctionOne, myFunctionTwo} from '.loadout'
 
-console.log("what what")
+import nav from './nav';
+import menuPageFunction from './menuPage';
+import homeLoad from './loadout';
 
 const content = document.getElementById('content');
 
+
 nav();
-menuPage();
+
+homeLoad();
+
+
+
