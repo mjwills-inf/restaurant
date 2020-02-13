@@ -18,15 +18,15 @@ const nav = () => {
   
 
   let aboutLink = document.createElement ('a');
-  aboutLink.classList = 'navBar aboutLink';
+  aboutLink.id = 'aboutLink';
   aboutLink.innerText = 'About';
   
   let menuLink = document.createElement ('a');
-  menuLink.classList = 'navBar menuLink';
+  menuLink.id = 'menuLink';
   menuLink.innerText = 'Menu';
   
   let contactLink = document.createElement ('a');  
-  contactLink.classList = 'navBar contactLink';
+  contactLink.id = 'contactLink';
   contactLink.innerText = 'Contact';
   
   

@@ -80,4 +80,13 @@ table{
 
 /* About Page */
 
+#about-container {
+  background-color: rgba(50, 50, 50, 0.95);
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  width: 75%;
+}
+
 /* Contact Page */
